@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 980px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#root{
+    padding: 0;
+}
+
+.card{
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+/* AllCrads.css */
+
+/* Style for search container */
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

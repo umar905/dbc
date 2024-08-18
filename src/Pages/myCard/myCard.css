@@ -1,0 +1,217 @@
+/* General Styles */
+
+.cardsec {
+  text-align: center;
+  padding: 30px;
+}
+
+.btn2 {
+  font-size: 15px;
+}
+
+.icons {
+  font-size: x-large;
+}
+
+.card2 {
+  background-color: steelblue;
+  color: black;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.cardsec .pfp {
+  width: 100%;
+  max-width: 350px;
+  object-fit: contain;
+}
+
+.infoCards1 {
+  padding: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardsInfoAdmin {
+  padding: 20px 0;
+  border: 5px solid green;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.controlBtns {
+  display: flex;
+}
+
+.edit {
+  color: green;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.edit:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.edit1 {
+  color: #fff;
+}
+
+.MuiModal-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiBox-root {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 90%;
+  width: 100%;
+}
+
+.btndelete.del {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btndelete.del:hover {
+  background-color: #c62828;
+}
+
+.del {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.AddTeacherForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddTeacherForm input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.AddTeacherForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.AddTeacherForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+  .infoCards1 {
+      padding: 30px;
+      gap: 10px;
+  }
+
+  .cardsInfoAdmin {
+      width: 45%;
+      margin: 10px 0;
+  }
+
+  .card2 {
+      width: 90%;
+  }
+
+  .cardsec .pfp {
+      max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .infoCards1 {
+      padding: 20px;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .cardsInfoAdmin {
+      width: 100%;
+      max-width: none;
+  }
+
+  .card2 {
+      width: 100%;
+  }
+
+  .cardsec .pfp {
+      max-width: 250px;
+  }
+
+  .btn2 {
+      font-size: 14px;
+  }
+
+  .icons {
+      font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
+  .infoCards1 {
+      padding: 15px;
+      gap: 5px;
+  }
+
+  .cardsInfoAdmin {
+      padding: 10px;
+      width: 100%;
+  }
+
+  .card2 {
+      width: 100%;
+  }
+
+  .cardsec .pfp {
+      max-width: 200px;
+  }
+
+  .btn2 {
+      font-size: 13px;
+  }
+
+  .icons {
+      font-size: medium;
+  }
+}
