@@ -8,7 +8,9 @@
 .btn2 {
   font-size: 15px;
 }
-
+b{
+  cursor:pointer
+}
 .icons {
   font-size: x-large;
 }
